@@ -1,0 +1,62 @@
+
+/* ===================================================
+       Responsive start here    
+======================================================*/
+
+.fart::before{
+    background: none;
+}
+.banner-desc{
+    background-color: transparent;
+    padding: 75px;
+    max-width: 632px;
+
+}
+.banner-desc h3{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 18px;
+}
+.banner-desc-btn button{
+    width: 148px;
+    height: 49px;
+}
+
+.banner-desc-btn button:nth-child(even){
+    background-color: transparent;
+
+}
+.banner-desc-btn button:nth-child(odd):hover{
+    background-color: transparent;
+
+}
+.logo-desc h1{
+    font-size: 48px;
+}
+.logo-desc p{
+    font-size: 18px;
+
+}
+.solution-doc{
+    margin-top:30px;
+}
+.solution-doc h2{
+    font-size: 30px;
+  
+}
+.chose-desc h2{
+    padding-top: 30px;
+    font-size: 30px;
+}
+.chose-lists h4{ 
+    font-size: 20px;
+
+}
+    
+    
+
+/* ===================================================
+Responsive Ends here
+======================================================*/

@@ -1,0 +1,354 @@
+/* reset code and common starts here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none !important;
+}
+body{
+    
+    /* line-height: 27px; */
+    font-size: 16px;
+    font-weight: 400;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    background: #fff;
+    color: #555;
+    
+
+}
+/* reset code and common code end here  */
+
+/* header section start here */
+.top-header{
+    background-color: #FFFFFF;
+}
+.fart{
+    position: relative;
+}
+.header-thumb {
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    margin: auto;
+}
+
+.header-info{
+    padding-left: 34px;
+    position: relative;
+}
+.fart i{
+    font-size: 20px;
+    color: #EA3A60;
+}
+.fart span{
+    color: rgb(85, 85, 85);
+}
+.fart p{
+    color: rgb(35, 35, 35);
+    font-weight: 600;
+}
+.fart::before{
+    position: absolute;
+    width: 2px;
+    height: 37px;
+    background-color: #EA3A60;
+    content: "";
+    top: 10%;
+    right: 18px;
+    
+}
+.fart:nth-child(3)::before{
+    background: transparent;
+}
+.fart:nth-child(2){
+    padding-left: 30px;
+}
+
+.social-icons {
+    color: #EA3A60;
+    font-size: 20px;
+    margin-left: 148px;
+}
+.social-icons i{
+    padding: 20px 15px;
+}
+
+
+
+
+
+
+
+.bottom-header{
+    background-color: #EA3A60;
+}
+nav a{
+    color: #fff !important;
+    font-size: 14px;
+     
+}
+.dropdown-menu li a{
+    color: black !important;
+}
+.fa-bars{
+    color: #fff;
+    font-size: 25px;
+}
+/* header sectione ends here */
+
+/* ====================================================
+        Banner section start here
+========================================================*/
+
+#banner{
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.418)),url(images/b844ad5a-d7f5-40d9-9cf3-3a859e2d7dad.png);
+    background-size: cover;
+    background-position: center;
+    height: 44rem;
+    background-blend-mode: darken;
+    /* padding-top: 150px; */
+    position: relative;
+    
+    
+}
+.banner-desc{
+    background-color: #EA3A60;
+    padding: 75px;
+    max-width: 632px;
+    position: absolute;
+    top: 20%;
+
+}
+.banner-desc span{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.banner-desc h3{
+    color: #fff;
+    font-size: 55px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 18px;
+}
+.banner-desc p{
+    color: #fff;
+    margin-bottom: 25px;
+    
+    
+}
+.banner-desc-btn button{
+    width: 163px;
+    height: 57px;
+    border: 1px solid white;
+    margin-right: 20px;
+}
+.banner-desc-btn button:nth-child(odd){
+    color: #EA3A60;
+    background-color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: all .4s;
+}
+.banner-desc-btn button:nth-child(even){
+    background-color: #EA3A60;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: all  .4s;
+}
+.banner-desc-btn button:nth-child(odd):hover{
+    color: #fff;
+    background-color: #EA3A60;
+    
+}
+.banner-desc-btn button:nth-child(even):hover{
+    background-color: #fff;
+    color: #EA3A60;
+    font-weight: 600;
+}
+
+/* ====================================================
+        Banner section start here
+========================================================*/
+
+/* ======================================================
+    solutions desing start here
+==========================================================*/
+#solutions{
+    padding: 8% 0;
+}
+.logo-desc{
+    background-color: #EA3A60;
+    text-align: center;
+    padding: 10px 0;
+    
+}
+.logo-desc h1{
+    color: #fff;
+    font-size: 74px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.logo-desc p{
+    font-size: 22px;
+    color: #fff;
+}
+.solution-doc{
+        margin-left:30px;
+}
+.solution-logo img{
+    width: 100%;
+}
+.solution-doc h2{
+    color: rgb(35, 35, 35);
+    font-size: 42px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;      
+}
+.hr-design{
+    width: 75px;
+    border: solid red 1px;
+    opacity: 1;
+    margin-bottom: 30px;
+}
+.solution-doc .solu-btn{
+    margin-top: 50px;
+}
+.solution-doc .solu-btn button{
+    width: 152px;
+    height: 53px;
+    color: #EA3A60;
+    background-color: #fff;
+    transition: all .4s;
+    border-radius: 5px;
+    border: 1px solid #EA3A60;
+    font-weight: 600;
+}
+.solution-doc .solu-btn button:hover{
+    color: #fff;
+    background-color: #EA3A60;
+}
+
+
+
+/* ======================================================
+    solutions desing ends here
+==========================================================*/
+
+/* ==========================================================
+    chose design start here
+==============================================================*/
+.chose-desc{
+    padding:0 5% ;
+    position: relative;
+    
+}
+.chose-desc h2{
+    color: rgb(35, 35, 35);
+    font-size: 42px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif; 
+}
+.hr-design-two{
+    width: 75px;
+    border: solid red 1px;
+    opacity: 1;
+    margin-bottom: 30px;
+}
+.chose-list-item{
+    margin-top: 30px;
+}
+.chose-desc .chose-lists{
+    padding-left: 50px;
+}
+.chose-desc .chose-lists i{
+    background-color: #EA3A60;
+    font-size: 25px;
+    position: absolute;
+    left: 0;
+}
+.chose-lists h4{ 
+    font-size: 22px;
+    color: rgb(35, 35, 35);
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif; 
+}
+.chose-img img{
+    width: 100%;
+    height: 525px;
+    
+}
+/* ==========================================================
+    chose design ends here
+==============================================================*/
+
+
+
+/* ==========================================================
+       responsive start
+==============================================================*/
+        @media screen and (max-width:992px) {
+            .solution-doc h2{
+                margin-top: 30px;
+              
+            }
+            .chose-img img{
+                display: none;
+                /* margin-top: 30px;
+                width: 100%;
+                height: 100%;
+                 */
+            }
+            .chose-desc h2{
+                font-size: 32px;
+            }
+            .chose-desc .chose-lists i{
+                background-color: #EA3A60;
+                font-size: 25px;
+                position: static;
+                margin-bottom: 20px;
+            }
+            .chose-desc{
+                text-align: center;
+            }
+            .hr-design-two{
+                
+                margin: 0 auto;
+                display: block;
+                
+            }
+            .chose-desc p{
+                margin-top: 20px;
+            }
+        }
+
+
+        @media screen and (max-width: 510px) {
+            .banner-desc-btn button{
+                display: block;
+                margin: 20px;
+            }
+            }
+        
+
+/* ==========================================================
+       responsive ends
+==============================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
